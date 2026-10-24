@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareerPulse | Connect with Your Next Opportunity</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <a href="home.html" class="logo">Career<span>Pulse</span></a>
+            <ul class="nav-menu">
+                <li><a href="index.html">Find Jobs</a></li>
+                <li><a href="#">Companies</a></li>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+            <div class="nav-buttons">
+                <button class="btn btn-secondary">Sign In</button>
+                <button class="btn btn-primary">Post a Job</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Master Hero Landing Block -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1>Your Gateway to a <span>Brighter Future</span> Starts Here</h1>
+            <p>Connect with industry leaders, access remote roles globally, and accelerate your career path trajectory.</p>
+            
+            <div style="margin-top: 20px;">
+                <a href="index.html" class="btn btn-primary" style="text-decoration: none; padding: 15px 40px; font-size: 1.1rem; display: inline-block;">
+                    Browse Open Roles &rarr;
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Dashboard Section -->
+    <section class="listings-section" style="margin-top: -40px; position: relative; z-index: 10;">
+        <div class="search-container" style="padding: 25px; display: grid; grid-template-columns: repeat(3, 1fr); text-align: center; border-radius: 16px;">
+            <div>
+                <h3 style="font-size: 2rem; color: var(--primary-color);">12k+</h3>
+                <p style="color: var(--text-muted); font-size: 0.9rem;">Live Positions</p>
+            </div>
+            <div style="border-left: 1px solid var(--border-color); border-right: 1px solid var(--border-color);">
+                <h3 style="font-size: 2rem; color: var(--primary-color);">450+</h3>
+                <p style="color: var(--text-muted); font-size: 0.9rem;">Verified Employers</p>
+            </div>
+            <div>
+                <h3 style="font-size: 2rem; color: var(--primary-color);">$80k+</h3>
+                <p style="color: var(--text-muted); font-size: 0.9rem;">Average Base Salary</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trending Job Categories -->
+    <section class="listings-section" style="margin-top: 60px;">
+        <div class="section-header" style="text-align: center; margin-bottom: 45px;">
+            <h2>Explore Top Industries</h2>
+            <p>Find specialized job roles optimized by high demand market conditions</p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
+            <!-- Category Card 1 -->
+            <div class="job-card" style="flex-direction: column; align-items: flex-start; gap: 10px; cursor: pointer;" onclick="window.location.href='index.html'">
+                <div style="font-size: 1.5rem;">💻</div>
+                <h4 style="font-size: 1.15rem; font-weight: 600;">Software Engineering</h4>
+                <p style="color: var(--text-muted); font-size: 0.85rem;">Backend, Frontend, Devops, Infrastructure</p>
+                <span class="meta-tag" style="background-color: #e0f2fe; color: #0369a1; margin-top: 10px;">1,420 Jobs Available</span>
+            </div>
+
+            <!-- Category Card 2 -->
+            <div class="job-card" style="flex-direction: column; align-items: flex-start; gap: 10px; cursor: pointer;" onclick="window.location.href='index.html'">
+                <div style="font-size: 1.5rem;">🎨</div>
+                <h4 style="font-size: 1.15rem; font-weight: 600;">Design & Creative</h4>
+                <p style="color: var(--text-muted); font-size: 0.85rem;">UI/UX, Product Design, Motion Design</p>
+                <span class="meta-tag" style="background-color: #e0f2fe; color: #0369a1; margin-top: 10px;">850 Jobs Available</span>
+            </div>
+
+            <!-- Category Card 3 -->
+            <div class="job-card" style="flex-direction: column; align-items: flex-start; gap: 10px; cursor: pointer;" onclick="window.location.href='index.html'">
+                <div style="font-size: 1.5rem;">📈</div>
+                <h4 style="font-size: 1.15rem; font-weight: 600;">Data & Analytics</h4>
+                <p style="color: var(--text-muted); font-size: 0.85rem;">Data Analyst, AI Research, BI Engineers</p>
+                <span class="meta-tag" style="background-color: #e0f2fe; color: #0369a1; margin-top: 10px;">610 Jobs Available</span>
+            </div>
+
+            <!-- Category Card 4 -->
+            <div class="job-card" style="flex-direction: column; align-items: flex-start; gap: 10px; cursor: pointer;" onclick="window.location.href='index.html'">
+                <div style="font-size: 1.5rem;">📢</div>
+                <h4 style="font-size: 1.15rem; font-weight: 600;">Marketing & Sales</h4>
+                <p style="color: var(--text-muted); font-size: 0.85rem;">SEO Strategy, Growth, Account Execution</p>
+                <span class="meta-tag" style="background-color: #e0f2fe; color: #0369a1; margin-top: 10px;">940 Jobs Available</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dual Action CTA Conversion Segment -->
+    <section class="listings-section" style="margin-top: 80px; margin-bottom: 40px;">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;">
+            <!-- Candidate Pitch Block -->
+            <div style="background: var(--bg-white); border: 1px solid var(--border-color); padding: 40px; border-radius: var(--radius); box-shadow: var(--shadow);">
+                <h3 style="font-size: 1.4rem; margin-bottom: 10px;">Looking for Work?</h3>
+                <p style="color: var(--text-muted); margin-bottom: 25px; font-size: 0.95rem;">Build your profile, submit resumes seamlessly to top global enterprises, and monitor active applications in real time.</p>
+                <a href="index.html" class="btn btn-primary" style="text-decoration: none; display: inline-block;">Apply Now</a>
+            </div>
+
+            <!-- Employer Pitch Block -->
+            <div style="background: #1e293b; color: var(--bg-white); padding: 40px; border-radius: var(--radius); box-shadow: var(--shadow);">
+                <h3 style="font-size: 1.4rem; margin-bottom: 10px; color: #ffffff;">Attracting Top Talent?</h3>
+                <p style="color: #94a3b8; margin-bottom: 25px; font-size: 0.95rem;">Post customized job boards, filter profiles accurately with dynamic dashboard views, and find the perfect culture fit faster.</p>
+                <button class="btn" style="background-color: #ffffff; color: #1e293b;">Post a Position</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 CareerPulse Job Portal. Designed for seamless job matching.</p>
+    </footer>
+
+</body>
+</html>
