@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareerPulse | Find Your Dream Job</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <a href="#" class="logo">Career<span>Pulse</span></a>
+            <ul class="nav-menu">
+                <li><a href="#" class="active">Find Jobs</a></li>
+                <li><a href="#">Companies</a></li>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+            <div class="nav-buttons">
+                <button class="btn btn-secondary">Sign In</button>
+                <button class="btn btn-primary">Post a Job</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1>Discover Your <span>Perfect Career</span> Path</h1>
+            <p>Explore thousands of job opportunities across top industries with flexible work models.</p>
+            
+            <!-- Search Bar Filters -->
+            <div class="search-container">
+                <div class="search-input">
+                    <input type="text" id="search-title" placeholder="Job title, keywords, or company...">
+                </div>
+                <div class="search-input border-left">
+                    <input type="text" id="search-location" placeholder="City, state, or 'Remote'...">
+                </div>
+                <button class="btn btn-primary" id="search-btn">Find Jobs</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Job Listings Section -->
+    <section class="listings-section">
+        <div class="section-header">
+            <h2>Latest Job Openings</h2>
+            <p>Showing matching roles updated in real-time</p>
+        </div>
+
+        <!-- Dynamic Job Cards Container -->
+        <div class="jobs-container" id="jobs-container">
+            <!-- JavaScript injected elements will render here dynamically -->
+        </div>
+    </section>
+
+    <!-- Application Modal Form -->
+    <div class="modal-overlay" id="apply-modal">
+        <div class="modal-content">
+            <span class="close-modal" id="close-modal">&times;</span>
+            <h3 id="modal-job-title">Apply for Job Title</h3>
+            <p id="modal-job-company" class="modal-subtitle">Company Name</p>
+            
+            <form id="application-form" class="application-form">
+                <div class="form-group">
+                    <label for="applicant-name">Full Name *</label>
+                    <input type="text" id="applicant-name" required placeholder="John Doe">
+                </div>
+                <div class="form-group">
+                    <label for="applicant-email">Email Address *</label>
+                    <input type="email" id="applicant-email" required placeholder="john@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="applicant-resume">Resume/CV URL *</label>
+                    <input type="url" id="applicant-resume" required placeholder="https://link-to-your-resume.pdf">
+                </div>
+                <div class="form-group">
+                    <label for="applicant-notes">Cover Note (Optional)</label>
+                    <textarea id="applicant-notes" rows="4" placeholder="Briefly describe why you are a great fit..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Submit Application</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 CareerPulse Job Portal. Designed for seamless job matching.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
