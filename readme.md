@@ -37,3 +37,5 @@ As this is currently a **100% frontend template application**, all mock data tra
 
 *   **Database Integration**: Swap out the memory array variable `targetJobsList` inside `script.js` for an active async network `fetch()` targeting a live REST API or GraphQL endpoint.
 *   **Persistent Client Storage**: Wire the mock application submit handler into browser local state engines or active storage caches to keep track of user-applied states across sessions.
+
+[Click to View](https://minshida-latheef.github.io/job-portal/)
