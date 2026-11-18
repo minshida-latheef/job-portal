@@ -7,7 +7,7 @@
 ## 🛠️ Project Structure
 The repository consists of the following foundational frontend source files:
 
-*   **`index.html`**: Core semantic markup structuring the responsive layout grid, hero filter mechanics, database card injections, and the structural application portal framework.
+*   **`index.html`**: Core semantic markup structuring the responsive layout grid, hero filter mechanics, database card injections, and the structural application portal framework. 
 *   **`style.css`**: Scalable stylesheet using CSS custom properties (`--variables`), Poppins typographic mapping, component design configurations, and flexible CSS Flexbox breakpoint parameters.
 *   **`script.js`**: Simulated dataset management, live search engine query logic, dynamic DOM generation, and interactive modal state controllers.
 
